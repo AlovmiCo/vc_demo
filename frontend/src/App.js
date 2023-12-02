@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { io } from 'socket.io-client';
 import Peer from 'simple-peer';
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://vc-mern-demo.onrender.com/";
 const socket = io(ENDPOINT);
 
 const App = () => {
