@@ -121,7 +121,7 @@ const App = () => {
         {/* User's video */}
         {callAccepted && !callEnded &&
           <> <h5>{call.name}</h5>
-            <video autoPlay ref={userVideo} muted />
+            <video autoPlay ref={userVideo}  />
           </>
         }
 
